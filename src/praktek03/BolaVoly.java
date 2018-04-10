@@ -8,4 +8,14 @@ public class BolaVoly extends BolaSepak{
     void throttle(){
         System.out.println("Dabuk Dabuk.....");
     }
+
+    public String getJenisBolaVoly() {
+        return JenisBolaVoly;
+    }
+
+    public void setJenisBolaVoly(String JenisBolaVoly) {
+        this.JenisBolaVoly = JenisBolaVoly;
+    }
+    
+    
 }
