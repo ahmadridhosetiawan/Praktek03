@@ -7,6 +7,7 @@ public class BolaSepakAksi {
         bs.setMerk("Adidas");
         bs.setWarna("Merah");
         bs.setHarga(1000);
+       // gak bisa  bs.setJenisBolaVoly();
         
         bs.cetakInfo();
         System.out.print("Merknya \t:");
@@ -15,6 +16,17 @@ public class BolaSepakAksi {
         System.out.println(bs.getWarna());
         System.out.print("Harganya \t:");
         System.out.println(bs.getHarga());
+        
+        BolaVoly bv = new BolaVoly();
+        
+        bv.setMerk("Nike");
+        bv.setWarna("Biru");
+        bv.setHarga(10000);
+        bv.setJenisBolaVoly("Kulit");
+        bv.cetakInfo();
+        System.out.println("Jenis\t :"+bv.getJenisBolaVoly());
+        bv.throttle();
+        
         
     }
     
